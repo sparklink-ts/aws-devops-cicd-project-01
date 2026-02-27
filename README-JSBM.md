@@ -1,6 +1,6 @@
 To deploy a Spring Boot application using AWS CodePipeline, the general process involves setting up a CI/CD workflow that sources your code, builds it, and deploys it to a target environment such as Amazon ECS.  
 
-**Prerequisites**
+**Prerequisites:**
 
 • An AWS account with administrator permissions. 
 • A Spring Boot application (packaged as a JAR file) in a source repository like GitHub or AWS CodeCommit 
@@ -8,14 +8,14 @@ To deploy a Spring Boot application using AWS CodePipeline, the general process 
 • For containerized deployments (ECS), you will need a  Dockerfile and an  Amazon Elastic Container Registry (ECR) repository. 
 
 
-**Core AWS Services Used** 
+**Core AWS Services Used:** 
 
 • AWS CodePipeline: Orchestrates the entire CI/CD process. 
 • AWS CodeBuild: Compiles the source code, runs tests, and produces the deployment artifact (JAR file or Docker image). 
 • Amazon ECS: The target environment where the application runs. 
 • AWS CodeDeploy: Automates deployment to services like ECS (often integrated within the pipeline for non-containerized EC2/Beanstalk deployments).
 
-**Step-by-Step Deployment (General Process)** 
+**Step-by-Step Deployment (General Process):** 
 
 1. Set up the Application Environment: Create the target environment where your application will run. This is often done using Amazon ECS 
  for containerized microservices.
