@@ -11,4 +11,4 @@ https://github.com/sparklink-ts/aws-employee-service-frontend
 https://github.com/sparklink-ts/aws-devops-cicd-using-ecs
 
 *Screenshots:*                                                                                                        
-https://github.com/sparklink-ts/aws-devops-cicd-using-ecs/blob/master/AWS-JSBM-RDS-Angular-ECS-CICD-Screenshots.zip
+https://github.com/sparklink-ts/aws-devops-cicd-using-ecs/blob/master/AWS-JSBM-RDS-Angular-ECS-CICD-Screenshots
